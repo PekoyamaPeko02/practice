@@ -1,4 +1,5 @@
 import '../css/login.css';
+import Link from 'next/link'
 
 
 export default function Login() {
@@ -64,9 +65,10 @@ export default function Login() {
 
           <p className="mt-10 text-center text-sm text-gray-500">
             Not a member?{' '}
-            <a href="/register" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+            <Link href="/register" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
               Register
-            </a>
+            </Link>
+
           </p>
         </div>
       </div>
